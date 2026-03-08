@@ -37,6 +37,7 @@ async def read_root():
 
 @app.post("/greet", response_class=HTMLResponse)
 async def greet_user(name: str = Form(...)):
+    print(f"Successfully received form submission: {name} 🎉")
     return f"""
     <!DOCTYPE html>
     <html lang="en">
