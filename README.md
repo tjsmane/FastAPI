@@ -2,17 +2,23 @@
 
 FastAPI is a modern, high-performance Python web framework for building APIs quickly and efficiently.
 
-## Why FastAPI?
+## FastAPI Features
 
 - **Fast** — One of the fastest Python frameworks available, on par with NodeJS and Go
 - **Easy** — Designed to be simple to use and learn
 - **Automatic Docs** — Generates interactive API documentation automatically at `/docs`
 - **Type Safe** — Built on Python type hints for cleaner, more reliable code
 
+## Requirements
+
+- Python 3.7+
+- fastapi
+- uvicorn
+
 ## Installation
 
 ```bash
-pip install fastapi uvicorn
+pip install fastapi uvicornbuild, deploy, and launch
 ```
 
 ## Quick Start
@@ -42,8 +48,4 @@ Then open your browser at `http://127.0.0.1:8000`
 | `/docs` | Interactive Swagger UI |
 | `/redoc` | ReDoc documentation |
 
-## Requirements
 
-- Python 3.7+
-- fastapi
-- uvicorn
